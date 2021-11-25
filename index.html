@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <title>Touch-Num</title>
+
+</head>
+
+<body class="body">
+    <h1 class="head"> mine sweeper</h1>
+
+    <div class="floor">
+
+        <div class="diff">
+
+            <button class="easy" onclick="createNums(16,2)">easy (16-2)</button>
+            <button class="medium" onclick="createNums(64,12)">medium (64-12)</button>
+            <button class="hard" onclick="createNums(144,30)">hard (144-30)</button>
+        </div>
+        
+            <div class="gameTime">
+                Time
+            </div>
+            <div>
+       <div class="lives"></div>
+        <div class="start" onclick="replay()">
+            😀
+        </div>
+        <div class="helper"></div>
+</div>
+
+        <table border="1" cellpadding="10">
+
+            <tbody class="board"></tbody>
+
+        </table>
+
+    </div>
+
+
+</body>
+<script src="utils.js"></script>
+<script src="code.js"></script>
+
+</html>

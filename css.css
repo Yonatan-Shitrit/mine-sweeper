@@ -1,0 +1,148 @@
+
+.body{
+
+background-color: lightgray;
+background-image: url(/imgs/img.jpg);
+}
+
+
+
+.head{
+
+    height: 3rem;
+    margin: auto;
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: block; 
+    width: 70%;
+    margin-bottom: 3px;
+}
+
+
+.start{
+    border: solid lightblue 0.1px;
+    background-color:lightslategray;
+    text-align: center;
+   margin: auto;
+   font-size: 2rem;
+    width: 3rem;
+    height: 3rem;
+
+}
+
+.start:hover{
+
+    background-color: darkgrey;
+}
+
+
+
+
+.floor{
+   
+    width: 800px;
+    border: solid white 4px ;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.diff {
+
+    width: 90%;
+    height: 40px;
+    background-color: yellow;
+    margin: auto;
+    margin-top: 10px;
+    bottom: 10px;
+    border: solid white 4px ;
+    text-align: center;
+}
+
+.easy , .medium, .hard {
+
+
+    margin:auto;
+    margin-top: 9px;
+    margin-left: 40px;
+    margin-right: 40px;
+ 
+}
+
+.easy:hover , .medium:hover, .hard:hover{
+
+    background-color: yellowgreen;
+}
+
+.board{
+
+    width: 90%;
+    height: 500px;
+    background-color: yellow;
+    margin: auto;
+    margin-top: 10px;
+    bottom: 10px;
+    border: solid white 4px ;
+    text-align: center;
+
+}
+
+.board td {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    
+}
+
+
+.gameTime{
+
+    background-color: lightgreen;
+    height: 40px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    font-size: 2rem;
+}
+.lives{
+
+    background-color: orange;
+    height: 40px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.frame{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    width: 100%;
+}
+
+
+
+.hidden {
+
+    font-size: 0;
+    background-color: grey;
+}
+.hidden:hover {
+ 
+    font-size: 0;
+    background-color: darkgrey;
+}
+.shown{
+
+    background-color: lightskyblue;
+    font-size: 2rem ;
+}
+
+.boom{
+
+    background-color: red;
+    font-size: 1.3rem ;
+}
